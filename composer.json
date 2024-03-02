@@ -1,0 +1,22 @@
+{
+  "name": "lordsaudkaric/purephp",
+  "description": "Pure PHP framework",
+  "type": "framework",
+  "require": {
+    "php": "^8.1",
+    "lordsaudkaric/purephpcore": "1.0.*"
+  },
+  "license": "mit",
+  "authors": [
+    {
+      "name": "LordSaudKaric",
+      "email": "saud-karic@hotmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  }
+}
